@@ -1,5 +1,4 @@
 import EL from "../assets/el.jpg";
-import ST from "../assets/stranger-things.jpg";
 
 function Download() {
   return (
