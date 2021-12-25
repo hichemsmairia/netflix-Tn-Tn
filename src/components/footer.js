@@ -1,4 +1,6 @@
 function Footer() {
+  //eslint-disable-next-line
+
   return (
     <footer className="Footer">
       <form className="Form">
@@ -16,33 +18,13 @@ function Footer() {
 
       <p>
         &copy; credits:{" "}
-        <a href="https://www.linkedin.com/" target="_blank">
-          GROUP FORMATION octobre decembre 2021
-        </a>{" "}
+       
         - Programmer
       </p>
 
       <p>merci pour votre visite</p>
 
-      <p>
-        ||{" "}
-        <a href="https://www.linkedin.com/" target="_blank">
-          LinkedIn
-        </a>{" "}
-        ||{" "}
-        <a href="https://github.com/" target="_blank">
-          GitHub
-        </a>{" "}
-        ||{" "}
-        <a href="https://www.upwork.com/" target="_blank">
-          Upwork
-        </a>{" "}
-        ||{" "}
-        <a href="https://www.99freelas.com.br" target="_blank">
-          99Freelas
-        </a>{" "}
-        ||
-      </p>
+     
     </footer>
   );
 }

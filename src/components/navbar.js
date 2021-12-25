@@ -1,14 +1,18 @@
 import { Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+const myStyle = {
+  backgroundColor: "black",
+  display: "flex",
+  justifyContent: "space-around",
+  paddingBottom: "20px",
+  textDecoration :"none"
+};
 function Navigation() {
   return (
     <Nav
-      style={{
-        backgroundColor: "black",
-        display: "flex",
-        justifyContent: "space-around",
-        paddingBottom: "20px",
-      }}
+      style={
+       myStyle
+      }
       variant="pills"
       defaultActiveKey="/home"
     >

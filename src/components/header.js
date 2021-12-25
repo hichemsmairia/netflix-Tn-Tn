@@ -1,5 +1,4 @@
 import Netflix from "../assets/netflix.svg";
-import MyNavbar from "./navbar";
 
 function Header() {
   return (
@@ -7,7 +6,7 @@ function Header() {
       <header className="Header">
         <img src={Netflix} alt="netflix logo" />
 
-        <a href="#"> Entrer</a>
+        <a href="/google"> Entrer</a>
       
       </header>
     
